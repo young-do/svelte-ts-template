@@ -11,6 +11,7 @@ const increment = () => {
 
 <style>
 button {
+  column-count: 3;
   font-family: inherit;
   font-size: inherit;
   padding: 1em 2em;
