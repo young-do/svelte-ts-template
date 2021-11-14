@@ -1,3 +1,17 @@
+# Svelte + TS template
+
+vite template에 아래 몇 가지 도구들을 추가했습니다.
+
+- [x] prettier
+- [x] path alias
+- [x] postcss + autoprefixer
+- [x] storybook with vite
+- [x] testing-library
+
+참고로 아래는 vite template의 readme.md 내용을 그대로 남겨두었습니다.
+
+---
+
 # Svelte + TS + Vite
 
 This template should help get you started developing with Svelte and TypeScript in Vite.
@@ -43,6 +57,6 @@ If you have state that's important to retain within a component, consider creati
 ```ts
 // store.ts
 // An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
+import { writable } from 'svelte/store';
+export default writable(0);
 ```
