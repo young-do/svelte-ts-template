@@ -14,6 +14,10 @@ module.exports = {
       },
     },
   ],
+  framework: '@storybook/svelte',
+  core: {
+    builder: 'storybook-builder-vite',
+  },
   svelteOptions: {
     preprocess: require('../svelte.config.js').preprocess,
   },
