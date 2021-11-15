@@ -2,18 +2,19 @@
   "name": "svelte-ts-template",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview",
-    "test": "jest src",
+    "build-storybook": "build-storybook",
     "check": "svelte-check --tsconfig ./tsconfig.json",
+    "dev": "vite",
+    "serve": "vite preview",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "test": "jest src"
   },
   "browserslist": [
     "last 1 version",
     "not IE 11"
   ],
+  "dependencies": {},
   "devDependencies": {
     "@storybook/addon-actions": "^6.4.0-rc.1",
     "@storybook/addon-essentials": "^6.4.0-rc.1",
@@ -42,6 +43,5 @@
     "tslib": "^2.2.0",
     "typescript": "^4.3.2",
     "vite": "^2.6.4"
-  },
-  "dependencies": {}
+  }
 }
